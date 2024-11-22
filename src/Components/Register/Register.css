@@ -1,0 +1,66 @@
+.container {
+  background-image: url('../src/assets/bg.webp'); /* Caminho para sua imagem */
+    max-width: 500px; /* Aumente a largura do contêiner */
+    margin: 0 auto;
+    padding: 40px; /* Aumente o espaçamento interno */
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+}
+form {
+  width: 100%;
+  max-width: 800px; /* Limita a largura do formulário */
+  background: #f4f4f4;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center; /* Centraliza o título */
+  font-size: 24px;
+  margin-bottom: 200px;
+}
+
+.auth-section {
+  text-align: center; /* Centraliza o título e o link de login */
+}
+
+.auth-section h1 {
+  margin-bottom: 200px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 15px; /* Aumente o espaçamento interno dos campos */
+  font-size: 16px; /* Aumente o tamanho da fonte */
+  height: 50px; /* Aumente a altura dos campos */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+button {
+  width: 100%;
+  padding: 15px; /* Aumente o espaçamento interno do botão */
+  font-size: 18px; /* Aumente o tamanho da fonte */
+  height: 50px; /* Aumente a altura do botão */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  padding: 40px;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+}

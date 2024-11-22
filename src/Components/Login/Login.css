@@ -1,0 +1,105 @@
+/* Definindo a imagem de fundo para o container */
+.container {
+  background-image: url('../src/assets/bg.webp'); /* Caminho para sua imagem */
+  background-size: cover; /* A imagem cobrirá toda a tela */
+  background-position: center; /* A imagem será centralizada */
+  background-repeat: no-repeat; /* A imagem não será repetida */
+  min-height: 100vh; /* Garantir que ocupe toda a altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilizando o formulário */
+form {
+  width: 100%;
+  max-width: 400px; /* Limita a largura do formulário */
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center; /* Centraliza o título */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Outras estilizações... */
+.input-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  margin-right: 10px;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.recall-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o texto */
+}
+.recall-forget a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+/* Estilos para o botão e links */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transições suaves para hover e foco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+button:hover {
+  background-color: #45a049; /* Cor do fundo ao passar o mouse */
+  transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+}
+
+.signup-link p {
+  text-align: center; /* Centraliza o texto */
+  font-size: 14px;
+}
+
+button:focus {
+  outline: none; /* Remove o contorno padrão ao focar */
+  box-shadow: 0 0 8px rgba(72, 183, 72, 0.8); /* Sombra ao focar no botão */
+}
+
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
